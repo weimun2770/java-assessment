@@ -1,0 +1,24 @@
+logging:
+  level:
+    root: WARN
+    org: 
+      springframework:
+        web: 
+      hibernate: ERROR
+    com:
+      example:
+        demo: INFO
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+
+
+
+
